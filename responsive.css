@@ -1,0 +1,52 @@
+/* Mobile Header */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    header nav {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #fff;
+        width: 200px;
+        height: calc(100vh - 70px);
+        transform: translateX(100%);
+        transition: transform 0.3s;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header nav.open {
+        transform: translateX(0);
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Hide mobile icon on desktop */
+.mobile-menu-icon {
+    display: none;
+}

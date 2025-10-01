@@ -4,7 +4,7 @@ function About() {
             <h2>🙋 About Me</h2>
             <div className="about-container">
                 <div className="about-img">
-                    <img src="src\components\Harsh.jpg" alt="Profile" />
+                    <img src="Harsh.jpg" alt="Profile" />
                 </div>
                 <div className="about-text">
                     <p>
@@ -26,3 +26,4 @@ function About() {
         </section>
     );
 }
+
